@@ -1,3 +1,6 @@
+# Marcelo Goluboff, 35118548
+# Adarsh Vipat, 
+
 from Movie import *
 import random
 import sys
