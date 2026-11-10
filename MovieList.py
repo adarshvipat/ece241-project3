@@ -49,3 +49,7 @@ class MovieList:
         for movie in self.__list:
             file.write(str(movie.getID()) + ";" + str(movie.getYear()) + ";" + movie.getTitle() + "\n")
         file.close()
+
+    def display(self):
+        for movie in self.__list:
+            print(movie)
